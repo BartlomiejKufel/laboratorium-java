@@ -17,8 +17,7 @@ public class Run {
         System.out.println("4. Zadanie 4");
         System.out.println("5. Zadanie 5");
         System.out.println("6. Zadanie 6");
-        System.out.println("7. Zadanie 7");
-        System.out.println("8. Wyjście");
+        System.out.println("7. Wyjście");
         System.out.println("Wybierz zadanie: ");
         int choose = input.InputInt();
         switch (choose){
@@ -35,21 +34,67 @@ public class Run {
     }
 
     private void Task06Run() {
+        System.out.print("Podaj x: ");
+        int x = input.InputInt();
+        System.out.print("Podaj y: ");
+        int y = input.InputInt();
+
+        System.out.println("1. Dodawanie");
+        System.out.println("2. Odejmowanie");
+        System.out.println("3. Iloczyn");
+        System.out.println("4. Iloraz");
+        System.out.println("5. Reszta z dzielenia");
+        System.out.println("Wybierz zadanie: ");
+        int choice = input.InputInt();
+
+        tasksLab02.Task06(x,y, choice);
     }
 
     private void Task05Run() {
-        
+        System.out.println("Wpisz jeśli: true - TAK, false - NIE");
+        System.out.print("Czy jest zniżka na samochód: ");
+        boolean discount = input.InputBoolean();
+
+        System.out.print("Czy otrzymałeś premię: ");
+        boolean raise = input.InputBoolean();
+
+        tasksLab02.Task05(discount, raise);
     }
 
     private void Task04Run() {
-        
+        System.out.println("Wpisz jeśli: true - TAK, false - NIE");
+        System.out.print("Pada deszcz: ");
+        boolean rain = input.InputBoolean();
+
+        System.out.print("Czy jest autobus: ");
+        boolean bus = input.InputBoolean();
+
+        tasksLab02.Task04(rain, bus);
     }
 
     private void Task03Run() {
-        
+        System.out.print("Podaj x: ");
+        int x = input.InputInt();
+        System.out.print("Podaj y: ");
+        int y = input.InputInt();
+        System.out.print("Podaj z: ");
+        int z = input.InputInt();
+
+        System.out.println("Liczby przed sortowaniem");
+        System.out.println("["+x+", "+y+", "+z+" ]");
+
+        tasksLab02.Task03(x,y,z);
     }
 
     private void Task02Run() {
+        System.out.print("Podaj xa: ");
+        double xa = input.InputDouble();
+        System.out.print("Podaj xb: ");
+        double xb = input.InputDouble();
+        System.out.print("Podaj xc: ");
+        double xc = input.InputDouble();
+
+        tasksLab02.Task02(xa,xb,xc);
     }
 
     private void Task01Run() {
