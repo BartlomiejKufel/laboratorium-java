@@ -8,7 +8,6 @@ public class Wydzial {
     private Student[] studenci = new Student[100];
 
     public Wydzial() {
-
         for (int i = 0; i < studenci.length; i++) {
             studenci[i] = setBasicStudent();
         }
@@ -74,7 +73,7 @@ public class Wydzial {
 
     public void showStudenciInRange(int limit1, int limit2){
         if((limit1 >= 0 && limit2 >= 0) && (limit1 <= limit2) && (limit2 < studenci.length)){
-            for (int i = limit1; i < limit2; i++) {
+            for (int i = limit1; i <= limit2; i++) {
                 studenci[i].View();
                 System.out.println();
             }

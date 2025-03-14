@@ -26,12 +26,12 @@ public class Main {
 //        student1.View();
 
         Wydzial informatyka = new Wydzial();
-        informatyka.setStudentInIndex(1);
-        informatyka.editStudentInIndex(1);
-        informatyka.showAllStudenci();
+//        informatyka.setStudentInIndex(1);
+//        informatyka.editStudentInIndex(1);
+//        informatyka.showAllStudenci();
         informatyka.showStudenciInRange(0,5);
-        informatyka.removeStudentDataInIndex(1);
-        informatyka.showStudent(1);
+//        informatyka.removeStudentDataInIndex(1);
+//        informatyka.showStudent(1);
 
 
     }
