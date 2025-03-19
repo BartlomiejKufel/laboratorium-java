@@ -29,10 +29,11 @@ public class Main {
 //        informatyka.setStudentInIndex(1);
 //        informatyka.editStudentInIndex(1);
 //        informatyka.showAllStudenci();
-        informatyka.showStudenciInRange(0,5);
+//        informatyka.showStudenciInRange(0,5);
 //        informatyka.removeStudentDataInIndex(1);
 //        informatyka.showStudent(1);
 
 
     }
+
 }
