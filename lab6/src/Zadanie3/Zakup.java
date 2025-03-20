@@ -12,6 +12,12 @@ public class Zakup {
         this.dataZakupu = dataZakupu;
     }
 
+    public Zakup(){
+        this.klient = new Klient();
+        this.ksiazka = new Ksiazka(); //to pewnie do zmiany, bo nie wiem, czy podręcznik będzie można dodać albo powieść
+        this.dataZakupu = "";
+    }
+
     public void showInfo(){
         klient.showInfo();
         ksiazka.showInfo();

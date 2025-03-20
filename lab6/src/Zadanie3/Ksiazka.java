@@ -13,6 +13,13 @@ public class Ksiazka {
         this.cena = cena;
     }
 
+    public Ksiazka(){
+        this.tytul = "";
+        this.autor = "";
+        this.rokWydania = 0;
+        this.cena = 0;
+    }
+
     public void showInfo(){
         System.out.print("Książka: Tytuł: „"+tytul+"‟; Autor: "+autor+"; Rok Wydania: "+rokWydania+"r. ; Cena: "+cena+"zł");
     }

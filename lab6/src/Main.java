@@ -70,8 +70,11 @@ public class Main {
         Ksiazka ksiazka1 = new Podrecznik("Podręcznik do matmy", "Kacper Marysiak", 2002, 40.3, "Matematyka");
 
         Zakup zakup1 = new Zakup(klient1, ksiazka1, "20.05.2020r.");
-        zakup1.showInfo();
+        //zakup1.showInfo();
 
         //klient1.editKlient();
+
+        Ksiegarnia ksiegarnia1 = new Ksiegarnia();
+        ksiegarnia1.showZakupy(5);
     }
 }
